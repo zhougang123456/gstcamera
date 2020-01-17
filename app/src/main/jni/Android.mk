@@ -3,7 +3,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE    := gstcamera
-LOCAL_SRC_FILES := camera.c
+LOCAL_SRC_FILES := camera.cpp
 
 LOCAL_SHARED_LIBRARIES := gstreamer_android
 LOCAL_LDLIBS := -llog -landroid -lEGL -lGLESv2 -ljnigraphics
